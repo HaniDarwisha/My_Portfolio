@@ -42,9 +42,9 @@ footer a {
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    /* background: transparent; */
+    /* color: var(--color-bg); */
+    /* border-color: var(--color-bg); */
 }
 
 .footer__copyright {

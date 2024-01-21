@@ -13,16 +13,16 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Flexcavo",
+      title: "EsourceShelf",
       img: IMG1,
       description:
-        "It is the website for construction machine renting company (Flexcavo) from Berlin",
-      technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
+        "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University.",
+      technologies: "Javascript | HTML | CSS",
       link: "https://www.flexcavo.de/",
     },
     {
       id: 2,
-      title: "Meet Native",
+      title: "QR Code-Based Authentication System for On-Campus E-Exam",
       img: IMG2,
       description:
         "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
@@ -31,7 +31,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Mob Inspire",
+      title: "Website for IKK Group of Companies",
       img: IMG3,
       description:
         "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
@@ -40,7 +40,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Raise",
+      title: "Landing Page for YNWA Sport store",
       img: IMG4,
       description:
         "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
@@ -49,7 +49,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: "Potsave",
+      title: "Website for Art of Management Est For Contracting",
       img: IMG5,
       description:
         "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
@@ -58,7 +58,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: "Health",
+      title: "Digital Menu website for restaurants and coffee shops",
       img: IMG6,
       description:
         "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
@@ -82,6 +82,7 @@ const Portfolio = () => {
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
+              <br />
             </div>
             <div className="portfolio__item-cta">
               <a

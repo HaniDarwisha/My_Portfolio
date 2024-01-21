@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #15151b;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary: #d6e045;
+  --color-primary-variant: #d6e045;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -30,7 +30,8 @@ html {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
+  scrollbar-color: var(--color-bg-variant) var(--color-primary);
 }
 
 body {
@@ -83,9 +84,9 @@ a {
   color: var(--color-primary)
 }
 
-a:hover {
+/* a:hover {
   color: var(--color-white);
-}
+} */
 
 .btn {
   width: max-content;
