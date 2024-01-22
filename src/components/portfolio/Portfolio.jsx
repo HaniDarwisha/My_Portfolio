@@ -1,6 +1,6 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Flexcavo.png";
+import IMG1 from "../../assets/EsourceShelf.png";
 import IMG2 from "../../assets/Meetnative.png";
 import IMG3 from "../../assets/Mobinspire.png";
 import IMG4 from "../../assets/Raise.png";
@@ -16,9 +16,9 @@ const Portfolio = () => {
       title: "EsourceShelf",
       img: IMG1,
       description:
-        "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University.",
+        "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Team of 4)",
       technologies: "Javascript | HTML | CSS",
-      link: "https://www.flexcavo.de/",
+      // link: "https://www.flexcavo.de/",
     },
     {
       id: 2,
@@ -63,6 +63,15 @@ const Portfolio = () => {
       description:
         "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
       technologies: "Angular | Drupal | Nginx | TypeScript",
+      link: "https://healthcare.utah.edu/",
+    },
+    {
+      id: 7,
+      title: "SimpleBanner",
+      img: IMG6,
+      description:
+        "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Team of 4)",
+      technologies: "Java | XML",
       link: "https://healthcare.utah.edu/",
     },
   ];
