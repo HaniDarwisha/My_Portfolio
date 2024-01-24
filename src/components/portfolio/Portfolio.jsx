@@ -1,79 +1,81 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/EsourceShelf.png";
-import IMG2 from "../../assets/Meetnative.png";
-import IMG3 from "../../assets/Mobinspire.png";
+import IMG1 from "../../assets/seniorProject.png";
+import IMG2 from "../../assets/IKKgroup.png";
+import IMG3 from "../../assets/YNWA-sport-store.jpg";
 import IMG4 from "../../assets/Raise.png";
 import IMG5 from "../../assets/Potsave.png";
-import IMG6 from "../../assets/Health.png";
+import IMG6 from "../../assets/SimpleBanner.png";
+import IMG7 from "../../assets/EsourceShelf.png";
 import React from "react";
 
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
+    
     {
       id: 1,
-      title: "EsourceShelf",
+      title: "QR Code-Based Authentication System for On-Campus E-Exam",
       img: IMG1,
       description:
-        "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Team of 4)",
-      technologies: "Javascript | HTML | CSS",
-      // link: "https://www.flexcavo.de/",
+        "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
+      technologies: "React.JS | JvaScript | HTML | CSS",
+      link: "https://seniorproject-invigilationsystem.onrender.com/",
     },
     {
       id: 2,
-      title: "QR Code-Based Authentication System for On-Campus E-Exam",
+      title: "Website for IKK Group of Companies",
       img: IMG2,
       description:
-        "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
-      technologies: "React | React Native | Android | iOS",
-      link: "https://meetnative.com/",
-    },
-    {
-      id: 3,
-      title: "Website for IKK Group of Companies",
-      img: IMG3,
-      description:
         "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
-      technologies: "Nginx | PHP | MySQL | jQuery",
+      technologies: "WordPress",
       link: "https://www.mobinspire.com/",
     },
     {
-      id: 4,
+      id: 3,
       title: "Landing Page for YNWA Sport store",
-      img: IMG4,
+      img: IMG3,
       description:
         "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
-      technologies: "Remix | React.js | Webflow | jQuery",
+      technologies: "WordPress",
       link: "https://www.raise.africa/",
     },
     {
-      id: 5,
+      id: 4,
       title: "Website for Art of Management Est For Contracting",
-      img: IMG5,
+      img: IMG4,
       description:
         "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
-      technologies: "React | Next.js | Lodash | Tailwind CSS",
+      technologies: "WordPress | CSS",
       link: "https://dev-pwa.potsave.com/",
     },
     {
-      id: 6,
+      id: 5,
       title: "Digital Menu website for restaurants and coffee shops",
-      img: IMG6,
+      img: IMG5,
       description:
         "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "Angular | Drupal | Nginx | TypeScript",
+      technologies: "React.JS | JavaScript | HTML | CSS",
+      link: "https://healthcare.utah.edu/",
+    },
+    {
+      id: 6,
+      title: "SimpleBanner",
+      img: IMG6,
+      description:
+        "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
+      technologies: "Java | XML",
       link: "https://healthcare.utah.edu/",
     },
     {
       id: 7,
-      title: "SimpleBanner",
-      img: IMG6,
+      title: "EsourceShelf",
+      img: IMG7,
       description:
-        "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Team of 4)",
-      technologies: "Java | XML",
-      link: "https://healthcare.utah.edu/",
-    },
+        "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
+      technologies: "Javascript | HTML | CSS",
+      // link: "https://www.flexcavo.de/",
+    }
   ];
 
   return (
