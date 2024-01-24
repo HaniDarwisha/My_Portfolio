@@ -4,7 +4,7 @@ import IMG1 from "../../assets/seniorProject.png";
 import IMG2 from "../../assets/IKKgroup.png";
 import IMG3 from "../../assets/YNWA-sport-store.jpg";
 import IMG4 from "../../assets/Raise.png";
-import IMG5 from "../../assets/Potsave.png";
+import IMG5 from "../../assets/menu.png";
 import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
 import React from "react";
@@ -29,7 +29,7 @@ const Portfolio = () => {
       description:
         "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
       technologies: "WordPress",
-      link: "https://www.mobinspire.com/",
+      // link: "https://www.mobinspire.com/",
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ const Portfolio = () => {
       description:
         "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
       technologies: "WordPress",
-      link: "https://www.raise.africa/",
+      // link: "https://www.raise.africa/",
     },
     {
       id: 4,
@@ -47,7 +47,7 @@ const Portfolio = () => {
       description:
         "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
       technologies: "WordPress | CSS",
-      link: "https://dev-pwa.potsave.com/",
+      // link: "https://dev-pwa.potsave.com/",
     },
     {
       id: 5,
@@ -56,7 +56,7 @@ const Portfolio = () => {
       description:
         "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
       technologies: "React.JS | JavaScript | HTML | CSS",
-      link: "https://healthcare.utah.edu/",
+      link: "https://menutestbench.onrender.com/",
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ const Portfolio = () => {
       description:
         "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
       technologies: "Java | XML",
-      link: "https://healthcare.utah.edu/",
+      // link: "https://healthcare.utah.edu/",
     },
     {
       id: 7,
@@ -73,7 +73,7 @@ const Portfolio = () => {
       img: IMG7,
       description:
         "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
-      technologies: "Javascript | HTML | CSS",
+      technologies: "JavaScript | HTML | CSS",
       // link: "https://www.flexcavo.de/",
     }
   ];
