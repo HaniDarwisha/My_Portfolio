@@ -49,15 +49,15 @@ const Portfolio = () => {
       technologies: "WordPress | CSS",
       // link: "https://dev-pwa.potsave.com/",
     },
-    {
-      id: 5,
-      title: "Digital Menu website for restaurants and coffee shops",
-      img: IMG5,
-      description:
-        "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "React.JS | JavaScript | HTML | CSS",
-      link: "https://menutestbench.onrender.com/",
-    },
+    // {
+    //   id: 5,
+    //   title: "Digital Menu website for restaurants and coffee shops",
+    //   img: IMG5,
+    //   description:
+    //     "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
+    //   technologies: "React.JS | JavaScript | HTML | CSS",
+    //   link: "https://menutestbench.onrender.com/",
+    // },
     {
       id: 6,
       title: "SimpleBanner",
