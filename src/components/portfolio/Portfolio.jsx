@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/seniorProject.png";
 import IMG2 from "../../assets/IKKgroup.png";
 import IMG3 from "../../assets/YNWA-sport-store.jpg";
-import IMG4 from "../../assets/Raise.png";
+import IMG4 from "../../assets/artofmanagement-sa.png";
 import IMG5 from "../../assets/menu.png";
 import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
@@ -27,27 +27,27 @@ const Portfolio = () => {
       title: "Website for IKK Group of Companies",
       img: IMG2,
       description:
-        "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
+        "A non-official website built for IKK Group of Companies during my COOP training program at their IT department.",
       technologies: "WordPress",
       // link: "https://www.mobinspire.com/",
-    },
-    {
-      id: 3,
-      title: "Landing Page for YNWA Sport store",
-      img: IMG3,
-      description:
-        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
-      technologies: "WordPress",
-      // link: "https://www.raise.africa/",
     },
     {
       id: 4,
       title: "Website for Art of Management Est For Contracting",
       img: IMG4,
       description:
-        "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
+        "an Informative website for Art of Management Est For Contracting.",
       technologies: "WordPress | CSS",
-      // link: "https://dev-pwa.potsave.com/",
+      link: "https://artofmanagement-sa.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "Landing Page for YNWA Sport store",
+      img: IMG3,
+      description:
+        "A landing page website for YNWA Sport store",
+      technologies: "WordPress",
+      // link: "https://www.raise.africa/",
     },
     // {
     //   id: 5,
@@ -59,6 +59,15 @@ const Portfolio = () => {
     //   link: "https://menutestbench.onrender.com/",
     // },
     {
+      id: 7,
+      title: "EsourceShelf",
+      img: IMG7,
+      description:
+        "A digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
+      technologies: "JavaScript | HTML | CSS",
+      // link: "https://www.flexcavo.de/",
+    },
+    {
       id: 6,
       title: "SimpleBanner",
       img: IMG6,
@@ -66,15 +75,6 @@ const Portfolio = () => {
         "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
       technologies: "Java | XML",
       // link: "https://healthcare.utah.edu/",
-    },
-    {
-      id: 7,
-      title: "EsourceShelf",
-      img: IMG7,
-      description:
-        "It is a digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
-      technologies: "JavaScript | HTML | CSS",
-      // link: "https://www.flexcavo.de/",
     }
   ];
 
