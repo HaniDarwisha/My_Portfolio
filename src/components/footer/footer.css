@@ -8,6 +8,13 @@ footer {
 
 footer a {
     color: var(--color-bg);
+    padding: 0.3rem;
+}
+
+footer a:hover {
+    background-color: var(--color-bg-variant);
+    border-radius: 0.7rem;
+    color: var(--color-primary);
 }
 
 .footer__logo {

@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -12,13 +12,13 @@ const HeaderSocials = () => {
       >
         <BsLinkedin />
       </a>
-      <a
+      {/* <a
         href="https://github.com/PolarisStar2000"
         target="_blank"
         rel="noreferrer"
       >
         <FaGithub />
-      </a>
+      </a> */}
     </div>
   );
 };
