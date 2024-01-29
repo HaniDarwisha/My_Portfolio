@@ -21,8 +21,8 @@ const Testimonials = () => {
       test: 'Hani is a valuable team member, I had the pleasure to work with him in multiple projects. In these project he had proven to be professional and work oriented, he served as a wonderful leader pushing us to excel and improve the output. He has experiences in Front-end development, designing, WordPress development, and technical support all of which I have personally witnessed. Hani played a valuable role in our meetings by suggesting and critiquing ideas and analyzing them. I would be honored to work with him in future projects and I encourage everyone to do the same.',
     },
     {
-      id: 1,
-      link: 'https://www.linkedin.com/in/khaled-alridi/',
+      id: 2,
+      link: 'https://www.linkedin.com/in/abdullah-abdulrahman-1093852ab/',
       name: 'Abdullah Abdulrahman',
       role: 'IT Fresh Graduate | IT Technician | Network Specialist',
       test: 'I worked with him in my senior project, he was one of my best colleagues, optimistic and hard working.',

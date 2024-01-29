@@ -18,7 +18,7 @@ const Portfolio = () => {
       title: "QR Code-Based Authentication System for On-Campus E-Exam",
       img: IMG1,
       description:
-        "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
+        "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to give access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
       technologies: "React.JS | JvaScript | HTML | CSS",
       link: "https://seniorproject-invigilationsystem.onrender.com/",
     },
@@ -36,7 +36,7 @@ const Portfolio = () => {
       title: "Website for Art of Management Est For Contracting",
       img: IMG4,
       description:
-        "an Informative website for Art of Management Est For Contracting.",
+        "An Informative website for Art of Management Est For Contracting.",
       technologies: "WordPress | CSS",
       link: "https://artofmanagement-sa.netlify.app/",
     },
@@ -45,7 +45,7 @@ const Portfolio = () => {
       title: "Landing Page for YNWA Sport store",
       img: IMG3,
       description:
-        "A landing page website for YNWA Sport store",
+        "A landing page website for YNWA Sport store.",
       technologies: "WordPress",
       // link: "https://www.raise.africa/",
     },
@@ -87,7 +87,7 @@ const Portfolio = () => {
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
-              <img src={pro.img} alt={pro.title} />
+              <img id="portfolio_img" src={pro.img} alt={pro.title} />
             </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
