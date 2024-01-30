@@ -23,6 +23,8 @@ const Intro = () => {
               <FaAward className="about__icon" />
               <h5>Education</h5>
               <small>Bachelor's Degree in IT</small>
+              <br />
+              <small> 06/2023</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
