@@ -10,7 +10,7 @@
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
-    scale: 0.8;
+    scale: 0.5;
 }
 
 .about__me-image {
@@ -25,7 +25,7 @@
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
