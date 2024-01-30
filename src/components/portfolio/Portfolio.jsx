@@ -29,7 +29,7 @@ const Portfolio = () => {
       description:
         "A non-official website built for IKK Group of Companies during my COOP training program at their IT department.",
       technologies: "WordPress",
-      // link: "https://www.mobinspire.com/",
+      link: "https://non-official-ikkgroup.netlify.app/",
     },
     {
       id: 4,
