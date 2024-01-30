@@ -5,6 +5,7 @@ import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
 import img from "../../assets/Me.jpg";
 import { AiOutlineCarryOut } from "react-icons/ai";
+import { IoMdSchool } from "react-icons/io";
 
 const Intro = () => {
   return (
@@ -20,7 +21,7 @@ const Intro = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
+              <IoMdSchool className="about__icon" />
               <h5>Education</h5>
               <small>Bachelor's Degree in IT</small>
               <br />
@@ -32,7 +33,7 @@ const Intro = () => {
               <small>15+ Completed Projects</small>
             </article>
             <article className="about__card">
-              <AiOutlineCarryOut className="about__icon" />
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1+ year</small>
             </article>

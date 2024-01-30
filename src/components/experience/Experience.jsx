@@ -25,6 +25,8 @@ import { CgUser } from "react-icons/cg";
 import { BsHeadset } from "react-icons/bs";
 import { BiHdd } from "react-icons/bi";
 import { FaMicrosoft } from "react-icons/fa";
+import { ImPrinter } from "react-icons/im";
+import { FaNetworkWired } from "react-icons/fa";
 
 
 
@@ -97,6 +99,14 @@ const Experience = () => {
           <h3>IT Technical Support</h3>
           <div className="experience__content">
             <article className="experience__details">
+              <CgUser className="experience__details-icon" />
+              <h4>ITIL v3</h4>
+            </article>
+            <article className="experience__details">
+              <BsHeadset className="experience__details-icon" />
+              <h4>Customer Service</h4>
+            </article>
+            <article className="experience__details">
               <AiFillTool className="experience__details-icon" />
               <h4>Troubleshooting</h4>
             </article>
@@ -121,10 +131,6 @@ const Experience = () => {
               <h4>Transferring employees data</h4>
             </article>
             <article className="experience__details">
-              <CgUser className="experience__details-icon" />
-              <h4>ITIL v3</h4>
-            </article>
-            <article className="experience__details">
               <DiLinux className="experience__details-icon" />
               <h4>Linux</h4>
             </article>
@@ -133,8 +139,12 @@ const Experience = () => {
               <h4>Microsoft Office</h4>
             </article>
             <article className="experience__details">
-              <BsHeadset className="experience__details-icon" />
-              <h4>Customer Service</h4>
+              <FaNetworkWired className="experience__details-icon" />
+              <h4>Network Switch</h4>
+            </article>
+            <article className="experience__details">
+              <ImPrinter className="experience__details-icon" />
+              <h4>Printers</h4>
             </article>
           </div>
         </div>
