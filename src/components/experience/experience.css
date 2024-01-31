@@ -4,13 +4,14 @@
     flex-direction: column;
     align-items: center; /* Add this line */
     background: var(--color-bg-variant);
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
     border-radius: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    color: var(--color-primary);
 }
 
 .timeline:hover {
@@ -81,4 +82,11 @@
     color: var(--light-gray);
     font-weight: var(--fw-300);
     line-height: 1.6;
+}
+
+@media screen and (max-width: 1225px){
+    .timeline {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }
