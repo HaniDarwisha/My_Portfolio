@@ -85,7 +85,29 @@ html {
 
 ::-webkit-scrollbar {
   /* display: none; */
-  scrollbar-color: var(--color-bg-variant) var(--color-primary);
+  /* scrollbar-color: var(--color-bg-variant) var(--color-primary); */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-white); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary); 
 }
 
 body {
