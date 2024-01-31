@@ -42,7 +42,7 @@ const Intro = () => {
             I'm an IT fresh graduate, self-motivated, excited to work in an organization to apply my knowledge & skills in Front-End Web Development, IT Technical Support, and IT Project Management.
             <br />
             <br />
-            My goal is to deliver efficient & effective solutions, and keep learning & being up-to-date with latest technologies in the IT field.
+            My goal is to deliver efficient & effective solutions, and keep learning & being up-to-date with the latest technologies in the IT field.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
