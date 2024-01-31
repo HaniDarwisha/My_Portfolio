@@ -6,6 +6,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import img from "../../assets/Me.jpg";
 import { AiOutlineCarryOut } from "react-icons/ai";
 import { IoMdSchool } from "react-icons/io";
+import { HiOutlineLocationMarker } from "react-icons/hi";
 
 const Intro = () => {
   return (
@@ -45,6 +46,9 @@ const Intro = () => {
             <br />
             <br />
             My goal is to deliver efficient & effective solutions, and keep learning & being up-to-date with the latest technologies in the IT field.
+            <br />
+            <br />
+            <HiOutlineLocationMarker /> Jeddah, KSA
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
