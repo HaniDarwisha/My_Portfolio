@@ -65,6 +65,13 @@
     color: var(--color-light);
 }
 
+@media screen and (max-width: 1296px){
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .about__container {
         grid-template-columns: 1fr;
@@ -78,6 +85,12 @@
 
     .about__content p {
         margin: 1rem 0 1.5rem;
+    }
+
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
     }
 }
   
@@ -98,5 +111,11 @@
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .about__cards {
+        grid-template-columns: 1fr;
     }
 }

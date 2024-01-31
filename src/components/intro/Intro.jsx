@@ -25,7 +25,9 @@ const Intro = () => {
               <h5>Education</h5>
               <small>Bachelor's Degree in IT</small>
               <br />
-              <small> 06/2023</small>
+              <small>2019 - 2023</small>
+              <br />
+              <small>GPA: 3.56 / 4</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />

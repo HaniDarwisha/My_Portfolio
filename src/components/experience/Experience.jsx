@@ -32,158 +32,50 @@ import { FaNetworkWired } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <section id="experience">
-      <h5>The Skills I Have</h5>
-      <h2>Skills</h2>
-
-      <div className="container experience__container">
-
-     
-        
-        <div className="experience__frontend">
-          <h3>Front-End Web Development</h3>
-          <div className="experience__content">
-          <article className="experience__details">
-              <DiReact className="experience__details-icon" />
-              <h4>ReactJS</h4>
-            </article>
-            <article className="experience__details">
-              <DiHtml5 className="experience__details-icon" />
-              <h4>HTML</h4>
-            </article>
-            <article className="experience__details">
-              <DiCss3 className="experience__details-icon" />
-              <h4>CSS</h4>
-            </article>
-            <article className="experience__details">
-              <DiJsBadge className="experience__details-icon" />
-              <h4>JavaScript</h4>
-            </article>
-            <article className="experience__details">
-              <DiWordpress className="experience__details-icon" />
-              <h4>WordPress | CMS</h4>
-            </article>
-            <article className="experience__details">
-              <DiGithubBadge className="experience__details-icon" />
-              <h4>GitHub</h4>
-            </article>
-            <article className="experience__details">
-              <CgScreenShot className="experience__details-icon" />
-              <h4>Responsive Design</h4>
-            </article>
-            <article className="experience__details">
-              <CgHomeScreen className="experience__details-icon" />
-              <h4>UI/UX</h4>
-            </article>
-            <article className="experience__details">
-              <BsGlobe className="experience__details-icon" />
-              <h4>DNS Management</h4>
-            </article>
-            <article className="experience__details">
-              <AiOutlineDashboard className="experience__details-icon" />
-              <h4>Web Performance Optimization</h4>
-            </article>
-            <article className="experience__details">
-              <CgArrowUpO className="experience__details-icon" />
-              <h4>Web Hosting</h4>
-            </article>
-            <article className="experience__details">
-              <AiFillSetting className="experience__details-icon" />
-              <h4>Deployment</h4>
-            </article>
-          </div>
-        </div>
-
-
-        <div className="experience__frontend">
-          <h3>IT Technical Support</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <CgUser className="experience__details-icon" />
-              <h4>ITIL v3</h4>
-            </article>
-            <article className="experience__details">
-              <BsHeadset className="experience__details-icon" />
-              <h4>Customer Service</h4>
-            </article>
-            <article className="experience__details">
-              <AiFillTool className="experience__details-icon" />
-              <h4>Troubleshooting</h4>
-            </article>
-            <article className="experience__details">
-              <BiBrain className="experience__details-icon" />
-              <h4>Problem Solving</h4>
-            </article>
-            <article className="experience__details">
-              <CgUsb className="experience__details-icon" />
-              <h4>Operating Systems Installation</h4>
-            </article>
-            <article className="experience__details">
-              <CgLaptop className="experience__details-icon" />
-              <h4>Computer Hardware Maintenance</h4>
-            </article>
-            <article className="experience__details">
-              <BiHdd className="experience__details-icon" />
-              <h4>Formatting Storage Devices</h4>
-            </article>
-            <article className="experience__details">
-              <BsFolderSymlink className="experience__details-icon" />
-              <h4>Transferring Employees Data</h4>
-            </article>
-            <article className="experience__details">
-              <DiLinux className="experience__details-icon" />
-              <h4>Linux</h4>
-            </article>
-            <article className="experience__details">
-              <FaMicrosoft className="experience__details-icon" />
-              <h4>Microsoft Office</h4>
-            </article>
-            <article className="experience__details">
-              <FaNetworkWired className="experience__details-icon" />
-              <h4>Network Switch</h4>
-            </article>
-            <article className="experience__details">
-              <ImPrinter className="experience__details-icon" />
-              <h4>Printers</h4>
-            </article>
-          </div>
-        </div>
-
-
-        <div className="experience__frontend">
-          <h3>Soft Skills</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Leadership</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Teamwork</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Communication</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Conflict Management</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Research</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Brainstorming</h4>
-            </article>
-          </div>
-        </div>
-
-
+    <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline" role="img" class="md hydrated" aria-label="briefcase outline"></ion-icon>
       </div>
 
-    </section>
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          Freelancer Web Developer
+        </h4>
+
+        <span>July 2023 — Present</span>
+
+        <p class="timeline-text">
+          I'm available for freelance, short-term, and long-term
+          projects.
+        </p>
+      </li>
+      
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">COOP Training</h4>
+
+        <span>June 2022 — August 2022</span>
+
+        <p class="timeline-text">IKK Group Of Companies - Centralized IT Department, Jeddah (Full-time)</p>
+      </li>
+
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Cashier</h4>
+
+        <span>November 2019 — April 2020</span>
+
+        <p class="timeline-text">LaFamiglia Bistro Café, Jeddah (Full-time)</p>
+      </li>
+
+     
+    </ol>
+  </section>
   );
 };
 
