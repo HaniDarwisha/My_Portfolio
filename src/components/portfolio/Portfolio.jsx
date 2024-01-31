@@ -8,6 +8,7 @@ import IMG5 from "../../assets/menu.png";
 import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
 import React from "react";
+import { BsArrowUpRight } from "react-icons/bs";
 
 //Portfolio function
 const Portfolio = () => {
@@ -21,6 +22,8 @@ const Portfolio = () => {
         "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to give access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
       technologies: "React.JS | JvaScript | HTML | CSS",
       link: "https://seniorproject-invigilationsystem.onrender.com/",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
     },
     {
       id: 2,
@@ -30,6 +33,8 @@ const Portfolio = () => {
         "A non-official website built for IKK Group of Companies during my COOP training program at their IT department.",
       technologies: "WordPress",
       link: "https://non-official-ikkgroup.netlify.app/",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
     },
     {
       id: 4,
@@ -39,6 +44,8 @@ const Portfolio = () => {
         "An Informative website for Art of Management Est For Contracting.",
       technologies: "WordPress | CSS",
       link: "https://artofmanagement-sa.netlify.app/",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
     },
     {
       id: 3,
@@ -47,7 +54,9 @@ const Portfolio = () => {
       description:
         "A landing page website for YNWA Sport store.",
       technologies: "WordPress",
-      // link: "https://www.raise.africa/",
+      link: "",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
     },
     // {
     //   id: 5,
@@ -57,6 +66,8 @@ const Portfolio = () => {
     //     "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
     //   technologies: "React.JS | JavaScript | HTML | CSS",
     //   link: "https://menutestbench.onrender.com/",
+    // link_Text: "Live Demo",
+    // link_icon: <BsArrowUpRight />,
     // },
     {
       id: 7,
@@ -65,7 +76,8 @@ const Portfolio = () => {
       description:
         "A digital library website, which was also intended to provide trustworthy sources of books and articles. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
       technologies: "JavaScript | HTML | CSS",
-      // link: "https://www.flexcavo.de/",
+      link: "",
+
     },
     {
       id: 6,
@@ -74,7 +86,9 @@ const Portfolio = () => {
       description:
         "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
       technologies: "Java | XML",
-      // link: "https://healthcare.utah.edu/",
+      link: "https://github.com/AbdulrahmanB0/SimpleBanner.git",
+      link_text: "GitHub",
+      link_icon: <BsArrowUpRight />,
     }
   ];
 
@@ -95,16 +109,20 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
               <br />
             </div>
-            <div className="portfolio__item-cta">
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
+            
+            {pro.link && (
+              <div className="portfolio__item-cta">
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                >
+                  {pro.link_text}{pro.link_icon}
+                </a>
+              </div>
+            )}
+
           </article>
         ))}
       </div>
