@@ -124,11 +124,11 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BiHdd className="experience__details-icon" />
-              <h4>Formatting storage devices</h4>
+              <h4>Formatting Storage Devices</h4>
             </article>
             <article className="experience__details">
               <BsFolderSymlink className="experience__details-icon" />
-              <h4>Transferring employees data</h4>
+              <h4>Transferring Employees Data</h4>
             </article>
             <article className="experience__details">
               <DiLinux className="experience__details-icon" />

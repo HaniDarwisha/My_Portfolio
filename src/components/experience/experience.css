@@ -40,6 +40,7 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+    scale: 2;
 }
 
 @media screen and (max-width: 1024px){
