@@ -2,16 +2,19 @@
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Add this line */
+    /* align-items: center; Add this line */
     background: var(--color-bg-variant);
     margin-right: 25%;
     margin-left: 25%;
     border-radius: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
     color: var(--color-primary);
+    margin-top: 0;
 }
 
 .timeline:hover {
@@ -82,6 +85,12 @@
     color: var(--light-gray);
     font-weight: var(--fw-300);
     line-height: 1.6;
+}
+
+
+.hydrated {
+    scale: 1.5;
+    margin-left: 7px;
 }
 
 @media screen and (max-width: 1225px){

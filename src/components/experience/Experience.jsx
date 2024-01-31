@@ -27,18 +27,21 @@ import { BiHdd } from "react-icons/bi";
 import { FaMicrosoft } from "react-icons/fa";
 import { ImPrinter } from "react-icons/im";
 import { FaNetworkWired } from "react-icons/fa";
+import { BsBriefcaseFill } from "react-icons/bs";
 
 
 
 const Experience = () => {
   return (
+    <section>
+      <h5>My Work Experience</h5>
+      <h2>Experience</h2>
     <section class="timeline">
     <div class="title-wrapper">
       <div class="icon-box">
-        <ion-icon name="briefcase-outline" role="img" class="md hydrated" aria-label="briefcase outline"></ion-icon>
+        <BsBriefcaseFill name="briefcase-outline" role="img" class="md hydrated" aria-label="briefcase outline"></BsBriefcaseFill>
       </div>
 
-      <h3 class="h3">Experience</h3>
     </div>
 
     <ol class="timeline-list">
@@ -75,6 +78,7 @@ const Experience = () => {
 
      
     </ol>
+  </section>
   </section>
   );
 };
