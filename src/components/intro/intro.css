@@ -65,7 +65,7 @@
     color: var(--color-light);
 }
 
-@media screen and (max-width: 1296px){
+@media screen and (max-width: 1351px){
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -114,7 +114,7 @@
     }
 }
 
-@media screen and (max-width: 345px){
+@media screen and (max-width: 373px){
     .about__cards {
         grid-template-columns: 1fr;
     }
