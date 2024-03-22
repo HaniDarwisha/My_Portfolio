@@ -84,7 +84,7 @@ const Portfolio = () => {
       title: "Simple Banner",
       img: IMG6,
       description:
-        "Android Mobile Application. We made a fake system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
+        "Android Mobile Application. We made a demo system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
       technologies: "Java | XML",
       // link: "https://github.com/AbdulrahmanB0/SimpleBanner.git",
       link_text: "GitHub",
