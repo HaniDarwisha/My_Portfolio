@@ -19,7 +19,7 @@ const Portfolio = () => {
       title: "QR Code-Based Authentication System for On-Campus E-Exam",
       img: IMG1,
       description:
-        "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to give access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
+        "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to granting access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
       technologies: "React.JS | JvaScript | HTML | CSS",
       link: "https://seniorproject-invigilationsystem.onrender.com/",
       link_text: "Live Demo",
