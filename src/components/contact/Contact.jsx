@@ -17,12 +17,20 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <div className="contact__option-children">
-              <MdOutlineEmail className="contact__option-icon" />
-              <FiPhone className="contact__option-icon" />
+              <a href="mailto:hanidarwisha@gmail.com">
+                <MdOutlineEmail className="contact__option-icon" />
+              </a>
+              <a href="tel:+966534062192">
+                <FiPhone className="contact__option-icon" />
+              </a>
             </div>
             <div className="contact__option-children">
-              <h4>hanidarwisha@gmail.com</h4>
-              <h4>+966 53 406 2192</h4>
+              <a href="mailto:hanidarwisha@gmail.com">
+                <h4>hanidarwisha@gmail.com</h4>
+              </a>
+              <a href="tel:+966534062192">
+                <h4>+966 53 406 2192</h4>
+              </a>
             </div>
           </article>
         </div>
