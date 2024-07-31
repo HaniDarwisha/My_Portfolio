@@ -29,7 +29,7 @@ const Contact = () => {
                 <h3>hanidarwisha@gmail.com</h3>
               </a>
               <a href="tel:+966534062192">
-                <h3>+966 53 406 2192</h3>
+                <h3>966 53 406 2192</h3>
               </a>
             </div>
           </article>
