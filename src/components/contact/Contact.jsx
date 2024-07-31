@@ -26,10 +26,10 @@ const Contact = () => {
             </div>
             <div className="contact__option-children">
               <a href="mailto:hanidarwisha@gmail.com">
-                <h4>hanidarwisha@gmail.com</h4>
+                <h3>hanidarwisha@gmail.com</h3>
               </a>
               <a href="tel:+966534062192">
-                <h4>+966 53 406 2192</h4>
+                <h3>+966 53 406 2192</h3>
               </a>
             </div>
           </article>
