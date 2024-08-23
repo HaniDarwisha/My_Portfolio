@@ -37,7 +37,7 @@ const Intro = () => {
               <a href="#portfolio">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>15+ Completed Projects</small>
+              <small>16+ Completed Projects</small>
               </a>
               </article>
             
