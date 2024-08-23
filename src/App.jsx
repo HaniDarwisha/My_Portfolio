@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Topbar from "./components/topbar/Topbar";
 import Experience from "./components/experience/Experience";
+import LinkedinPost from "./components/Embedded/LinkedinPost";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Experience />
       <Skills />
       <Portfolio />
+      <LinkedinPost />
       <Testimonials />
       <Footer />
     </>
