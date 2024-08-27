@@ -4,16 +4,6 @@ import HeaderSocials from './HeaderSocials';
 import './header.css';
 
 
-// the following code is for the hover effect on the CV button where the icon will be highlighted when the mouse is over the button and will return to its original state when the mouse is out of the button
-document.getElementById('CV-btn').addEventListener('mouseover', function() {
-  document.querySelector('.experience__details-icon').style.filter = 'brightness(0) saturate(100%)';
-});
-
-document.getElementById('CV-btn').addEventListener('mouseout', function() {
-  document.querySelector('.experience__details-icon').style.filter = '';
-});
-
-
 const Header = () => {
   return (
     <header id="home">

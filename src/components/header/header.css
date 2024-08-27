@@ -43,6 +43,12 @@ header {
   font-size: 0.9rem;
 }
 
+/* Hover state of the button (CV-btn), affecting the icon (experience__details-icon). when hovering over the btn, the following styles will aply to only the icon */
+#CV-btn:hover .experience__details-icon {
+  filter: brightness(0) saturate(100%);
+  transition: var(--transition);
+}
+
 .experience__details-icon {
   margin-right: 0.8rem;
 }
