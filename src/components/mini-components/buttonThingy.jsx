@@ -21,8 +21,9 @@ const StyledWrapper = styled.div`
   border: none;
   background-color: rgb(218, 203, 177);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top-left-radius: 20px;
   cursor: pointer;
-  border-radius: 1.2rem;
+  border-bottom-right-radius: 20px;
   box-shadow: 0 0 10px rgb(104, 134, 218);
 }
 
