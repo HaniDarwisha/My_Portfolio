@@ -47,33 +47,51 @@ const Experience = () => {
     <ol class="timeline-list">
 
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">
-          Freelancer Web Developer
+        <span class="h4 timeline-item-title">
+          Web Developer & Digital Consultant (Freelance)
+        </span>
+
+        <h4>Art of Management Est For Contracting, Jeddah, Saudi Arabia. 11/2023 — 01/2024
         </h4>
 
-        <span>July 2023 — Present</span>
-
         <p class="timeline-text">
-          I'm available for freelance, short-term, and long-term
-          projects.
+          <ul>
+            <li>• Designed, developed, and deployed a fully functional website, managing all aspects from domain registration to hosting setup.</li>
+            <li>• Created business emails, set up social media profiles, and linked all online presences on a linktree.</li>
+            <li>• Designed a variety of graphic materials, including logos, business cards, flyers, and social media.</li>
+            <li>• Managed marketing campaigns across multiple platforms (Tiktok, Snapchat, Facebook, Instagram), analyzing and reporting daily statistics.</li>
+          </ul>
         </p>
       </li>
       
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">COOP Training</h4>
+        <span class="h4 timeline-item-title">
+          Technical Support & Web Development Intern (Cooperative Training Program)</span>
 
-        <span>June 2022 — August 2022</span>
+        <h4>IKK Group of Companies - Centralized IT Department. Jeddah, Saudi Arabia. 06/2022 — 08/2022</h4>
 
-        <p class="timeline-text">IKK Group Of Companies - Centralized IT Department, Jeddah (Full-time)</p>
+        <p class="timeline-text">
+          <ul>
+            <li>• Designed, developed, and deployed a fully functional website, managing all aspects from domain registration to hosting setup.</li>
+            <li>• Helped the web development team with functional testing of the official IKK Group website.</li>
+            <li>• Provided IT technical support similar to that of a regional officer, resolving technical issues both remotely via TeamViewer and on-site, including troubleshooting computers and assisting employees face-to-face.</li>
+            <li>• Assisted the IT Support team across multiple locations, ensuring smooth IT operations.</li>
+            <li>• Replaced computer hardware parts & installed software applications on employees computers.</li>
+          </ul>
+        </p>
       </li>
 
-
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Cashier</h4>
+        <span class="h4 timeline-item-title">
+          Cashier</span>
 
-        <span>November 2019 — April 2020</span>
+        <h4> LaFamiglia Bistro Cafe. Jeddah, Saudi Arabia. 11/2019 — 04/2020</h4>
 
-        <p class="timeline-text">LaFamiglia Bistro Café, Jeddah (Full-time)</p>
+        <p class="timeline-text">
+          <ul>
+            <li>• Delivered excellent customer service and managed inventory, ensuring operational efficiency.</li>
+          </ul>
+        </p>
       </li>
 
      
