@@ -23,7 +23,7 @@ const StyledWrapper = styled.div`
   height: 55px;
   overflow: hidden;
   border: none;
-  background-color: rgb(218, 203, 177);
+  background-color: var(--color-primary);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-top-left-radius: 20px;
   cursor: pointer;
@@ -62,7 +62,7 @@ const StyledWrapper = styled.div`
   content: "";
   position: absolute;
   inset: 4px;
-  background-color: rgb(218, 203, 177);
+  background-color: var(--color-primary);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
