@@ -35,7 +35,7 @@ const Experience = () => {
   return (
     <section id="professional-experience">
       <h5>My Work Experience</h5>
-      <h2>Experience</h2>
+      <h2>Professional Experience</h2>
     <section class="timeline">
     <div class="title-wrapper">
       <div class="icon-box">
