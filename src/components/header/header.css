@@ -47,6 +47,10 @@ header {
   margin-right: 0.8rem;
 }
 
+.experience__details-icon :hover {
+  fill: var(--color-primary);
+}
+
 @media screen and (max-width: 1024px){
   /* header {
     height: 68vh;
