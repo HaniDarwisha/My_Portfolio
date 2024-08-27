@@ -7,9 +7,11 @@ import CV from "../../assets/Hani Darwisha - CV - IT.pdf";
 const ButtonThingy = () => {
   return (
     <StyledWrapper>
-      <button className="box">
-        <p href={CV} target="_blank" rel="noopener noreferrer" className="text-button">Download CV</p>
-      </button>
+      <a href={CV} target="_blank" rel="noopener noreferrer">
+        <button className="box">
+          <p className="text-button">Download CV</p>
+        </button>
+      </a>
     </StyledWrapper>
   );
 };
