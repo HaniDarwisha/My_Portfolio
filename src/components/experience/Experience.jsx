@@ -33,7 +33,7 @@ import { BsBriefcaseFill } from "react-icons/bs";
 
 const Experience = () => {
   return (
-    <section>
+    <section id="professional-experience">
       <h5>My Work Experience</h5>
       <h2>Experience</h2>
     <section class="timeline">
@@ -72,7 +72,7 @@ const Experience = () => {
 
         <p class="timeline-text">
           <ul>
-            <li>• Designed, developed, and deployed a fully functional website, managing all aspects from domain registration to hosting setup.</li>
+            <li>• Developed, deployed, and maintained websites using WordPress.</li>
             <li>• Helped the web development team with functional testing of the official IKK Group website.</li>
             <li>• Provided IT technical support similar to that of a regional officer, resolving technical issues both remotely via TeamViewer and on-site, including troubleshooting computers and assisting employees face-to-face.</li>
             <li>• Assisted the IT Support team across multiple locations, ensuring smooth IT operations.</li>

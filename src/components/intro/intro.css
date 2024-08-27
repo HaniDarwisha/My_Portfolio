@@ -65,6 +65,13 @@
     color: var(--color-light);
 }
 
+.about__card-link {
+  display: block;  /* Makes the entire <a> tag behave as a block element */
+  text-decoration: none;  /* Removes the default underline from the link */
+  color: inherit;  /* Inherits the color from the parent element */
+}
+
+
 @media screen and (max-width: 1351px){
     .about__cards {
         grid-template-columns: 1fr 1fr;

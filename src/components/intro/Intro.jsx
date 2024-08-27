@@ -33,18 +33,21 @@ const Intro = () => {
               <small>Saudi Electronic University</small>
             </article>
             
-              <article className="about__card">
-              <a href="#portfolio">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>16+ Completed Projects</small>
+            <article className="about__card">
+              <a href="#portfolio" className="about__card-link">
+                <VscFolderLibrary className="about__icon" />
+                  <h5>Projects</h5>
+                <small>16+ Completed Projects</small>
               </a>
-              </article>
+            </article>
+
             
             <article className="about__card">
+              <a href="#professional-experience" className="about__card-link">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1+ year</small>
+              </a>
             </article>
           </div>
           <p>
