@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import CV from "../../assets/Hani Darwisha - CV.pdf";
+// import CV from "../../assets/Hani Darwisha - CV.pdf";
+import CV from "../../assets/Hani Darwisha - CV - IT.pdf";
+
 
 const ButtonThingy = () => {
   return (
