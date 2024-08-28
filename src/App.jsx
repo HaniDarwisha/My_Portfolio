@@ -11,6 +11,8 @@ import Experience from "./components/experience/Experience";
 import LinkedinPost from "./components/Embedded/LinkedinPost";
 import Figma from "./components/Embedded/Figma";
 
+
+
 const App = () => {
   return (
     <>
