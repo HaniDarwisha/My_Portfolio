@@ -10,6 +10,7 @@ import Topbar from "./components/topbar/Topbar";
 import Experience from "./components/experience/Experience";
 import LinkedinPost from "./components/Embedded/LinkedinPost";
 import Figma from "./components/Embedded/Figma";
+import Portfoliouiux from "./components/portfolio/portfoliouiux";
 
 
 
@@ -23,7 +24,8 @@ const App = () => {
       <Experience />
       <Skills />
       <Portfolio />
-      {/* <Figma /> */}
+      <Portfoliouiux />
+      <Figma />
       <LinkedinPost />
       <Testimonials />
       <Footer />
