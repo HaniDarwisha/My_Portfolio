@@ -1,5 +1,6 @@
 import "./portfolio.css";
 
+// import vid1 from "../../assets/TEACHERWITHATOUCHDEMO.mp4";
 import IMG1 from "../../assets/HealthyMeal-UIUX.png";
 import IMG2 from "../../assets/teacherwithatouch.jpg";
 import IMG3 from "../../assets/YNWA-sport-store.jpg";
@@ -70,6 +71,7 @@ const Portfoliouiux = () => {
           </article>
         ))}
       </div>
+      {/* <video src={vid1} controls height={500} ></video> */}
     </section>
   );
 };
