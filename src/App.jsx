@@ -11,14 +11,14 @@ import Experience from "./components/experience/Experience";
 import LinkedinPost from "./components/Embedded/LinkedinPost";
 import Figma from "./components/Embedded/Figma";
 import Portfoliouiux from "./components/portfolio/portfoliouiux";
-
+import ImageSlider from "./components/Certifications/ImageSlider";
 
 
 const App = () => {
   return (
     <>
       <Header />
-      <Topbar />
+      {/* <Topbar /> */}
       <Intro />
       <Contact />
       <Experience />
@@ -26,6 +26,7 @@ const App = () => {
       <Portfolio />
       <Portfoliouiux />
       <Figma />
+      <ImageSlider />
       <LinkedinPost />
       <Testimonials />
       <Footer />
