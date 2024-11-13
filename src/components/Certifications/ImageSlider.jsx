@@ -38,47 +38,47 @@ const ImageSlider = () => {
     {
       id: 1,
       src: IMG1,
-      alt: 'Description of Image 1',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 2,
       src: IMG2,
-      alt: 'Description of Image 2',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 3,
       src: IMG3,
-      alt: 'Description of Image 3',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 4,
       src: IMG4,
-      alt: 'Description of Image 4',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 5,
       src: IMG5,
-      alt: 'Description of Image 5',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 6,
       src: IMG6,
-      alt: 'Description of Image 6',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 7,
       src: IMG7,
-      alt: 'Description of Image 7',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 9,
       src: IMG9,
-      alt: 'Description of Image 9',
+      alt: 'Certification for Hani Darwisha',
     },
     {
       id: 10,
       src: IMG10,
-      alt: 'Description of Image 10',
+      alt: 'Certification for Hani Darwisha',
     },
   ];
 
