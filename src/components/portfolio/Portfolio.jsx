@@ -7,6 +7,7 @@ import IMG4 from "../../assets/artofmanagement-sa.png";
 import IMG5 from "../../assets/menu.png";
 import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
+import IMG8 from "../../assets/portfolio-preview.png";
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -78,6 +79,17 @@ const Portfolio = () => {
       technologies: "JavaScript | HTML | CSS",
       link: "",
 
+    },
+    {
+      id: 8,
+      title: "My Portfolio Website",
+      img: IMG8,
+      description:
+        "This Website. My Portfolio Website that showcases my work and skills in Web Development, UI/UX Design, IT Technical Support, and more...",
+      technologies: "ReactJS | JSX | CSS | HTML",
+      // link: "https://hani.onrender.com/",
+      // link_text: "GitHub",
+      // link_icon: <BsArrowUpRight />,
     },
     {
       id: 6,
