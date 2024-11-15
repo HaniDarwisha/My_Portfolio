@@ -33,6 +33,7 @@
     display: block;
     width: 90%;
     margin: 0.8rem auto 0;
+    text-align: justify;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {

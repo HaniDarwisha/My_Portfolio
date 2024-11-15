@@ -30,7 +30,7 @@ const Portfolio = () => {
       title: "Website for IKK Group of Companies",
       img: IMG2,
       description:
-        "A non-official website built for IKK Group of Companies during my COOP training program at their IT department.",
+        "An unofficial website built for IKK Group of Companies during my COOP training program at their IT department.",
       technologies: "WordPress",
       link: "https://non-official-ikkgroup.netlify.app/",
       link_text: "Live Demo",

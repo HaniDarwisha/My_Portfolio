@@ -72,6 +72,11 @@
 }
 
 
+#intro-paragraph {
+    text-align: justify;
+}
+
+
 @media screen and (max-width: 1351px){
     .about__cards {
         grid-template-columns: 1fr 1fr;

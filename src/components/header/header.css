@@ -51,6 +51,8 @@ header {
 
 .experience__details-icon {
   margin-right: 0.8rem;
+  width: 16px;
+  height: 16px;
 }
 
 .experience__details-icon :hover {

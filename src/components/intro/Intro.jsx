@@ -50,7 +50,7 @@ const Intro = () => {
               </a>
             </article>
           </div>
-          <p>
+          <p id="intro-paragraph">
             I'm an IT fresh graduate, self-motivated, excited to work in an organization to apply my knowledge & skills in Front-End Web Development, IT Technical Support, and IT Project Management.
             <br />
             <br />
