@@ -72,9 +72,9 @@
 }
 
 
-/* #intro-paragraph {
-    text-align: justify;
-} */
+#intro-paragraph {
+    text-align: left;
+}
 
 
 @media screen and (max-width: 1351px){
