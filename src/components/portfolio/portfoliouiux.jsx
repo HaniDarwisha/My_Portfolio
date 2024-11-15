@@ -23,8 +23,8 @@ const Portfoliouiux = () => {
         "UI/UX DESIGN for A healthy recipes app that displays healthy food recipes, snacks, main meals, and desserts. Users can browse recipes, choose the appropriate meal, and share recipes with friends.",
       technologies: "Figma",
       link: `#prototype-title-${1}`,
-      link_text: "Live Prototype",
-      link_icon: <BsArrowUpRight />,
+      link_text: "Live Prototype📲",
+      // link_icon: <BsArrowUpRight />,
     },
     {
       id: 2,
@@ -34,8 +34,8 @@ const Portfoliouiux = () => {
         "UI/UX DESIGN for An educational app that connects students with teachers. Students can search for teachers, view their profiles, and book lessons with them. (Group of 4 members worked together on this project)",
       technologies: "Figma | FigJam | Canva | Trello",
       link: `#prototype-title-${2}`,
-      link_text: "Live Prototype",
-      link_icon: <BsArrowUpRight />,
+      link_text: "Live Prototype📲",
+      // link_icon: <BsArrowUpRight />,
     }
   ];
 
