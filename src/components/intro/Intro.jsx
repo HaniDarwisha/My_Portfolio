@@ -51,10 +51,16 @@ const Intro = () => {
             </article>
           </div>
           <p id="intro-paragraph">
-            I'm an IT fresh graduate, self-motivated, excited to work in an organization to apply my knowledge & skills in Front-End Web Development, IT Technical Support, and IT Project Management.
+            I am skilled in Front-End Web Development, IT Technical Support, IT Project Management, and UI/UX Design. 
             <br />
             <br />
-            My goal is to deliver efficient & effective solutions, and keep learning & being up-to-date with the latest technologies in the IT field.
+            I have hands-on experience using ReactJS to create responsive and user-friendly websites and am adept at designing engaging websites and applications.
+            <br />
+            <br />
+            My experience includes freelance work, an internship at IKK Group IT department, and various projects that collectively showcase my ability to design, develop, and deploy websites. My strong troubleshooting abilities and leadership skills enable me to effectively manage projects and contribute to team success.
+            <br />
+            <br />
+            Currently looking for job opportunities in the field of IT, mainly focused on Web Development & Technical Support.
             <br />
             <br />
             <HiOutlineLocationMarker /> Jeddah, KSA

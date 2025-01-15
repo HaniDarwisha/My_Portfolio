@@ -8,6 +8,7 @@ import IMG5 from "../../assets/menu.png";
 import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
 import IMG8 from "../../assets/portfolio-preview.png";
+import IMG9 from "../../assets/uxposure.png";
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -15,6 +16,18 @@ import { BsArrowUpRight } from "react-icons/bs";
 const Portfolio = () => {
   const soloProjects = [
     
+    
+    {
+      id: 9,
+      title: "UXposure.com",
+      img: IMG9, // Replace with the appropriate image
+      description:
+        "A platform designed to showcase the Figma projects created by UI/UX trainees during their courses. Training academies can display their trainees’ UI/UX projects in a professional, simple, and Interactive way. From Figma prototypes to detailed project showcases, UXposure makes it easy to highlight the creativity and skills of future designers. And also to help them get hired by companies. I am the Founder and Developer of this project. Contact me to subscribe to the platform and take your UI/UX courses to the next level!",
+      technologies: "React.JS | CSS | HTML | JavaScript",
+      link: "https://link.uxposure.com/demo",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
+    },
     {
       id: 1,
       title: "QR Code-Based Authentication System for On-Campus E-Exam",
@@ -23,6 +36,17 @@ const Portfolio = () => {
         "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to granting access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
       technologies: "React.JS | JvaScript | HTML | CSS",
       link: "https://seniorproject-invigilationsystem.onrender.com/",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
+    },
+    {
+      id: 4,
+      title: "Website for Art of Management Est For Contracting",
+      img: IMG4,
+      description:
+        "An Informative website for Art of Management Est For Contracting.",
+      technologies: "WordPress | CSS",
+      link: "https://artofmanagement-sa.netlify.app/",
       link_text: "Live Demo",
       link_icon: <BsArrowUpRight />,
     },
@@ -38,15 +62,15 @@ const Portfolio = () => {
       link_icon: <BsArrowUpRight />,
     },
     {
-      id: 4,
-      title: "Website for Art of Management Est For Contracting",
-      img: IMG4,
+      id: 8,
+      title: "My Portfolio Website",
+      img: IMG8,
       description:
-        "An Informative website for Art of Management Est For Contracting.",
-      technologies: "WordPress | CSS",
-      link: "https://artofmanagement-sa.netlify.app/",
-      link_text: "Live Demo",
-      link_icon: <BsArrowUpRight />,
+        "This Website. My Portfolio Website that showcases my work and skills in Web Development, UI/UX Design, IT Technical Support, and more...",
+      technologies: "ReactJS | JSX | CSS | HTML",
+      // link: "https://hani.onrender.com/",
+      // link_text: "GitHub",
+      // link_icon: <BsArrowUpRight />,
     },
     {
       id: 3,
@@ -81,17 +105,6 @@ const Portfolio = () => {
 
     },
     {
-      id: 8,
-      title: "My Portfolio Website",
-      img: IMG8,
-      description:
-        "This Website. My Portfolio Website that showcases my work and skills in Web Development, UI/UX Design, IT Technical Support, and more...",
-      technologies: "ReactJS | JSX | CSS | HTML",
-      // link: "https://hani.onrender.com/",
-      // link_text: "GitHub",
-      // link_icon: <BsArrowUpRight />,
-    },
-    {
       id: 6,
       title: "Simple Banner",
       img: IMG6,
@@ -101,7 +114,7 @@ const Portfolio = () => {
       // link: "https://github.com/AbdulrahmanB0/SimpleBanner.git",
       link_text: "GitHub",
       link_icon: <BsArrowUpRight />,
-    }
+    },
   ];
 
   return (
