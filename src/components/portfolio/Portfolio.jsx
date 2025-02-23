@@ -66,7 +66,7 @@ const Portfolio = () => {
       title: "My Portfolio Website",
       img: IMG8,
       description:
-        "This Website. My Portfolio Website that showcases my work and skills in Web Development, UI/UX Design, IT Technical Support, and more...",
+        "This Website. It was a originally a template that I found on Github, but I updated it and added a lot of things. My Portfolio Website that showcases my work and skills in Web Development, UI/UX Design, IT Technical Support, and more...",
       technologies: "ReactJS | JSX | CSS | HTML",
       // link: "https://hani.onrender.com/",
       // link_text: "GitHub",
