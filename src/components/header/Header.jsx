@@ -13,7 +13,7 @@ const Header = () => {
         <h4>IT Specialist</h4>
         <h5 className="text-light">Front-End Web Developer | IT Technical Support</h5>
         <CTA />
-        <a href="#contact" className="scroll__down">
+        <a href="#footer" className="scroll__down">
           Scroll Down
         </a>
         <HeaderSocials />

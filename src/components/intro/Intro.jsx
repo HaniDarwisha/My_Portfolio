@@ -4,6 +4,7 @@ import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
 import img from "../../assets/Me.jpg";
+import img1 from "../../assets/Me-1.jpeg";
 import { AiOutlineCarryOut } from "react-icons/ai";
 import { IoMdSchool } from "react-icons/io";
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -37,7 +38,7 @@ const Intro = () => {
               <a href="#portfolio" className="about__card-link">
                 <VscFolderLibrary className="about__icon" />
                   <h5>Projects</h5>
-                <small>16+ Completed Projects</small>
+                <small>17+ Completed Projects</small>
               </a>
             </article>
 
@@ -46,11 +47,11 @@ const Intro = () => {
               <a href="#professional-experience" className="about__card-link">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>1-2 years</small>
               </a>
             </article>
           </div>
-          <p id="intro-paragraph">
+          {/* <p id="intro-paragraph">
             I am skilled in Front-End Web Development, IT Technical Support, IT Project Management, and UI/UX Design. 
             <br />
             <br />
@@ -64,7 +65,14 @@ const Intro = () => {
             <br />
             <br />
             <HiOutlineLocationMarker /> Jeddah, KSA
-          </p>
+          </p> */}
+
+            <p id="intro-paragraph">
+              IT Specialist with a Bachelor’s Degree in Information Technology. 
+              <br/>Skilled in Front-End Web Development, IT Support, Project Management, and UX/UI Design. 
+              <br/>Proficient in building responsive & engaging websites using ReactJS and WordPress. 
+              <br/>Strong computer troubleshooting skills. A Problem-solver with a focus on creative and effective solutions.
+            </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
