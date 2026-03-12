@@ -20,6 +20,7 @@ import IMG9 from "../../assets/App in one Day - Attendance Certificate.png";
 import IMG10 from "../../assets/Web Ethical Hacking - Attendance Certificate.png";
 import IMG11 from "../../assets/Canva 50 Design Milestone Badge.gif";
 import IMG12 from "../../assets/no-code-webinar-nmkn.png";
+import IMG13 from "../../assets/nywtk UI-UX bootcamp certificate.png";
 
 
 
@@ -41,6 +42,11 @@ const ImageSlider = () => {
     {
       id: 1,
       src: IMG1,
+      alt: 'Certification for Hani Darwisha',
+    },
+    {
+      id: 13,
+      src: IMG13,
       alt: 'Certification for Hani Darwisha',
     },
     {
