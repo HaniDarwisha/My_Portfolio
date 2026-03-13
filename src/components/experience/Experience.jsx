@@ -48,10 +48,37 @@ const Experience = () => {
 
       <li class="timeline-item">
         <span class="h4 timeline-item-title">
+          Web Developer, Designer & Project Co-Manager (Freelance)
+        </span>
+
+        <h4 class="timeline-meta">
+          Pleko
+          <span class="timeline-right">
+            Jeddah, Saudi Arabia · 05/2025 — 12/2025
+          </span>
+        </h4>
+
+        <p class="timeline-text">
+          <ul>
+            <li>• Co-managed the website project alongside Pleko’s project owner, coordinating deliverables, timelines, and progress updates.</li>
+            <li>• Designed and developed the complete company website using WordPress, handling UI/UX, layout structure, and front-end implementation.</li>
+            <li>• Configured the website for responsiveness, performance optimization, and cross-browser compatibility.</li>
+            <li>• Continued as the website maintenance provider post-launch, managing updates, fixes, and analytics monitoring.</li>
+            <li>• Prepared and delivered weekly traffic reports including visitor statistics, referrers, spam sources, and key performance insights.</li>
+          </ul>
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <span class="h4 timeline-item-title">
           Web Developer & Digital Consultant (Freelance)
         </span>
 
-        <h4>Art of Management Est For Contracting, Jeddah, Saudi Arabia. 11/2023 — 01/2024
+        <h4 class="timeline-meta">
+          Art of Management Est For Contracting
+          <span class="timeline-right">
+            Jeddah, Saudi Arabia · 11/2023 — 01/2024
+          </span>
         </h4>
 
         <p class="timeline-text">
@@ -63,12 +90,19 @@ const Experience = () => {
           </ul>
         </p>
       </li>
-      
+
+
       <li class="timeline-item">
         <span class="h4 timeline-item-title">
-          Technical Support & Web Development Intern (Cooperative Training Program)</span>
+          Technical Support & Web Development Intern (Cooperative Training Program)
+        </span>
 
-        <h4>IKK Group of Companies - Centralized IT Department. Jeddah, Saudi Arabia. 06/2022 — 08/2022</h4>
+        <h4 class="timeline-meta">
+          IKK Group of Companies - Centralized IT Department
+          <span class="timeline-right">
+            Jeddah, Saudi Arabia · 06/2022 — 08/2022
+          </span>
+        </h4>
 
         <p class="timeline-text">
           <ul>
@@ -81,11 +115,18 @@ const Experience = () => {
         </p>
       </li>
 
+
       <li class="timeline-item">
         <span class="h4 timeline-item-title">
-          Cashier</span>
+          Cashier
+        </span>
 
-        <h4> LaFamiglia Bistro Cafe. Jeddah, Saudi Arabia. 11/2019 — 04/2020</h4>
+        <h4 class="timeline-meta">
+          LaFamiglia Bistro Cafe
+          <span class="timeline-right">
+            Jeddah, Saudi Arabia · 11/2019 — 04/2020
+          </span>
+        </h4>
 
         <p class="timeline-text">
           <ul>

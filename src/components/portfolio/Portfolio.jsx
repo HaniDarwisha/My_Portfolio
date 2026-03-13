@@ -9,6 +9,7 @@ import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
 import IMG8 from "../../assets/portfolio-preview.png";
 import IMG9 from "../../assets/uxposure.png";
+import IMG10 from "../../assets/pleko-website.png";
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -16,7 +17,18 @@ import { BsArrowUpRight } from "react-icons/bs";
 const Portfolio = () => {
   const soloProjects = [
     
-    
+
+    {
+      id: 10,
+      title: "pleko.com",
+      img: IMG10, // Replace with the appropriate image
+      description:
+        "A full corporate website developed for Pleko to present the company's services, products, and brand professionally online. I was responsible for the website’s UI/UX design, layout structure, and front-end implementation using WordPress and WooCommerce. I also co-managed the project with the company’s project owner, coordinating progress, deliverables, and timelines. After launch, I continued maintaining the website, optimizing performance, and monitoring analytics and traffic reports.",
+      technologies: "WordPress | WooCommerce | CSS | JavaScript | HTML",
+      link: "https://pleko.com",
+      link_text: "Visit Website",
+      link_icon: <BsArrowUpRight />,
+    },
     {
       id: 9,
       title: "UXposure.com",
@@ -24,8 +36,8 @@ const Portfolio = () => {
       description:
         "A platform designed to showcase the Figma projects created by UI/UX trainees during their courses. Training academies can display their trainees’ UI/UX projects in a professional, simple, and Interactive way. From Figma prototypes to detailed project showcases, UXposure makes it easy to highlight the creativity and skills of future designers. And also to help them get hired by companies. I am the Founder and Developer of this project. Contact me to subscribe to the platform and take your UI/UX courses to the next level!",
       technologies: "React.JS | CSS | HTML | JavaScript",
-      link: "https://link.uxposure.com/demo",
-      link_text: "Live Demo",
+      link: "https://uxposure.onrender.com/",
+      link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
     },
     {
@@ -36,7 +48,7 @@ const Portfolio = () => {
         "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to granting access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
       technologies: "React.JS | JvaScript | HTML | CSS",
       link: "https://seniorproject-invigilationsystem.onrender.com/",
-      link_text: "Live Demo",
+      link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
     },
     {
@@ -47,7 +59,7 @@ const Portfolio = () => {
         "An Informative website for Art of Management Est For Contracting.",
       technologies: "WordPress | CSS",
       link: "https://artofmanagement-sa.netlify.app/",
-      link_text: "Live Demo",
+      link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
     },
     {
@@ -58,7 +70,7 @@ const Portfolio = () => {
         "An unofficial website built for IKK Group of Companies during my COOP training program at their IT department.",
       technologies: "WordPress",
       link: "https://non-official-ikkgroup.netlify.app/",
-      link_text: "Live Demo",
+      link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
     },
     {
@@ -80,7 +92,7 @@ const Portfolio = () => {
         "A landing page website for YNWA Sport store.",
       technologies: "WordPress",
       link: "",
-      link_text: "Live Demo",
+      link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
     },
     // {
@@ -104,17 +116,17 @@ const Portfolio = () => {
       link: "",
 
     },
-    {
-      id: 6,
-      title: "Simple Banner",
-      img: IMG6,
-      description:
-        "Android Mobile Application. We made a demo system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
-      technologies: "Java | XML",
-      // link: "https://github.com/AbdulrahmanB0/SimpleBanner.git",
-      link_text: "GitHub",
-      link_icon: <BsArrowUpRight />,
-    },
+    // {
+    //   id: 6,
+    //   title: "Simple Banner",
+    //   img: IMG6,
+    //   description:
+    //     "Android Mobile Application. We made a demo system that would allow students to: Sign up, Login, Add, Remove, and Review their courses. This was a college project that was built as part of my Bachelor's Degree at Saudi Electronic University. (Group of 4 members worked together on this project)",
+    //   technologies: "Java | XML",
+    //   link: "https://github.com/AbdulrahmanB0/SimpleBanner.git",
+    //   link_text: "GitHub",
+    //   link_icon: <BsArrowUpRight />,
+    // },
   ];
 
   return (
@@ -129,9 +141,9 @@ const Portfolio = () => {
               <img id="portfolio_img" src={pro.img} alt={pro.title} />
             </div>
             <div className="portfolio__item-content">
-              <h3>{pro.title}</h3>
+              <h3 id="project-title">{pro.title}</h3>
               <p>{pro.description}</p>
-              <p>{pro.technologies}</p>
+              <p id="technologies-text">{pro.technologies}</p>
               <br />
             </div>
             
