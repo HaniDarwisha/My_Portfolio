@@ -25,7 +25,7 @@ const Portfolio = () => {
       img: IMG10, // Replace with the appropriate image
       description:
         "A full corporate website developed for Pleko to present the company's services, products, and brand professionally online. I was responsible for the website’s UI/UX design, layout structure, and front-end implementation using WordPress and WooCommerce. I also co-managed the project with the company’s project owner, coordinating progress, deliverables, and timelines. After launch, I continued maintaining the website, optimizing performance, and monitoring analytics and traffic reports.",
-      technologies: "WordPress | WooCommerce | CSS | JavaScript | HTML",
+      technologies: "WordPress | WooCommerce | CSS | JavaScript | HTML | Responsive Design",
       link: "https://pleko.com",
       link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
@@ -36,7 +36,7 @@ const Portfolio = () => {
       img: IMG9, // Replace with the appropriate image
       description:
         "A platform designed to showcase the Figma projects created by UI/UX trainees during their courses. Training academies can display their trainees’ UI/UX projects in a professional, simple, and Interactive way. From Figma prototypes to detailed project showcases, UXposure makes it easy to highlight the creativity and skills of future designers. And also to help them get hired by companies. I am the Founder and Developer of this project. Contact me to subscribe to the platform and take your UI/UX courses to the next level!",
-      technologies: "React.JS | CSS | HTML | JavaScript",
+      technologies: "React.JS | CSS | HTML | JavaScript | Responsive Design",
       link: "https://uxposure.onrender.com/",
       link_text: "Live Demo",
       link_icon: <BsArrowUpRight />,
@@ -47,7 +47,7 @@ const Portfolio = () => {
       img: IMG4,
       description:
         "An Informative website for Art of Management Est For Contracting.",
-      technologies: "WordPress | CSS",
+      technologies: "WordPress | CSS | Responsive Design",
       link: "https://artofmanagement-sa.netlify.app/",
       link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
@@ -58,7 +58,7 @@ const Portfolio = () => {
       img: IMG11,
       description:
         "A digital menu website that allows restaurants and coffee shops to create and manage their digital menus, making it easier for customers to browse and order their food and drinks online.",
-      technologies: "React.JS | JavaScript | HTML | CSS",
+      technologies: "React.JS | JavaScript | HTML | CSS | Responsive Design",
       link: "https://menutestbench.onrender.com/",
       link_text: "Live Demo",
       link_icon: <BsArrowUpRight />,
@@ -69,7 +69,7 @@ const Portfolio = () => {
       img: IMG1,
       description:
         "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to granting access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
-      technologies: "React.JS | JvaScript | HTML | CSS",
+      technologies: "React.JS | JvaScript | HTML | CSS |Responsive Design",
       link: "https://seniorproject-invigilationsystem.onrender.com/",
       link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
@@ -91,7 +91,7 @@ const Portfolio = () => {
       img: IMG8,
       description:
         "This Website. It was a originally a template that I found on Github, but I updated it and added a lot of things. My Portfolio Website that showcases my work and skills in Web Development, UI/UX Design, IT Technical Support, and more...",
-      technologies: "ReactJS | JSX | CSS | HTML",
+      technologies: "ReactJS | JSX | CSS | HTML | Responsive Design",
       // link: "https://hani.onrender.com/",
       // link_text: "GitHub",
       // link_icon: <BsArrowUpRight />,
