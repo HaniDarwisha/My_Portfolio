@@ -7,9 +7,10 @@ import IMG4 from "../../assets/artofmanagement-sa.png";
 import IMG5 from "../../assets/menu.png";
 import IMG6 from "../../assets/SimpleBanner.png";
 import IMG7 from "../../assets/EsourceShelf.png";
-import IMG8 from "../../assets/portfolio-preview.png";
+import IMG8 from "../../assets/portfolio-website.png";
 import IMG9 from "../../assets/uxposure.png";
 import IMG10 from "../../assets/pleko-website.png";
+import IMG11 from "../../assets/menu-web-app.png";
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -37,18 +38,7 @@ const Portfolio = () => {
         "A platform designed to showcase the Figma projects created by UI/UX trainees during their courses. Training academies can display their trainees’ UI/UX projects in a professional, simple, and Interactive way. From Figma prototypes to detailed project showcases, UXposure makes it easy to highlight the creativity and skills of future designers. And also to help them get hired by companies. I am the Founder and Developer of this project. Contact me to subscribe to the platform and take your UI/UX courses to the next level!",
       technologies: "React.JS | CSS | HTML | JavaScript",
       link: "https://uxposure.onrender.com/",
-      link_text: "Visit Website",
-      link_icon: <BsArrowUpRight />,
-    },
-    {
-      id: 1,
-      title: "QR Code-Based Authentication System for On-Campus E-Exam",
-      img: IMG1,
-      description:
-        "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to granting access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
-      technologies: "React.JS | JvaScript | HTML | CSS",
-      link: "https://seniorproject-invigilationsystem.onrender.com/",
-      link_text: "Visit Website",
+      link_text: "Live Demo",
       link_icon: <BsArrowUpRight />,
     },
     {
@@ -59,6 +49,28 @@ const Portfolio = () => {
         "An Informative website for Art of Management Est For Contracting.",
       technologies: "WordPress | CSS",
       link: "https://artofmanagement-sa.netlify.app/",
+      link_text: "Visit Website",
+      link_icon: <BsArrowUpRight />,
+    },
+    {
+      id: 11,
+      title: "Digital Menu website for restaurants and coffee shops",
+      img: IMG11,
+      description:
+        "A digital menu website that allows restaurants and coffee shops to create and manage their digital menus, making it easier for customers to browse and order their food and drinks online.",
+      technologies: "React.JS | JavaScript | HTML | CSS",
+      link: "https://menutestbench.onrender.com/",
+      link_text: "Live Demo",
+      link_icon: <BsArrowUpRight />,
+    },
+    {
+      id: 1,
+      title: "QR Code-Based Authentication System for On-Campus E-Exam",
+      img: IMG1,
+      description:
+        "Bachelor's Senior Project. A web-based system that computerizes the attendance taking process during exams period in addition to granting access to exams using QR code, the system also has the ability to generate a unique password in case of failure in QR code scan. (Group of 4 members worked together on this project)",
+      technologies: "React.JS | JvaScript | HTML | CSS",
+      link: "https://seniorproject-invigilationsystem.onrender.com/",
       link_text: "Visit Website",
       link_icon: <BsArrowUpRight />,
     },
